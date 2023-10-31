@@ -147,30 +147,28 @@ function getPasswordOptions() {
 
 // Function for getting a random element from an array
 function getRandom(char) {
-    // Calculate a random index within the length of the character set
+  // Calculate a random index within the length of the character set
   var randomnumber = Math.floor(Math.random() * char.length);
-  return char[randomnumber];   // Return the character at the randomly generated index
+  return char[randomnumber]; // Return the character at the randomly generated index
 }
 
 // Function to generate password with user input
 function generatePassword() {
-   // Get password options from the user input function above.
-  var getPasswordOption = getPasswordOptions();   // Get password options from the user (characters and length)
-  var length = getPasswordOption[1];   // Extract password length and character set from the returned array
+  // Get password options from the user input function above.
+  var getPasswordOption = getPasswordOptions(); // Get password options from the user (characters and length)
+  var length = getPasswordOption[1]; // Extract password length and character set from the returned array
   var characters = getPasswordOption[0];
-  var Password_characters = "";   // Variable to store the generated password
+  var Password_characters = ""; // Variable to store the generated password
 
-   // Loop to generate the password with the user specified length
+  // Loop to generate the password with the user specified length
   for (var i = 0; i < length; i++) {
-    var random_character = getRandom(characters);     // Get a random character from the concatenated character set
-     Password_characters += random_character;     // Append the random character to the generated password
+    var random_character = getRandom(characters); // Get a random character from the concatenated character set
+    Password_characters += random_character; // Append the random character to the generated password
   }
- 
-   // Return the generated password
+
+  // Return the generated password
   return Password_characters;
 }
-
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
