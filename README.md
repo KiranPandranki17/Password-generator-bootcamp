@@ -32,3 +32,11 @@ To get started with the Password Generator, simply clone the repository to your 
 ```bash
 git clone <https://github.com/KiranPandranki17/Password-generator-bootcamp.git)https://github.com/KiranPandranki17/Password-generator-bootcamp.git>
 cd Password-generator-bootcamp
+
+## How to Use
+
+1. Open the web application in your browser.
+2. Click the "Generate Password" button to initiate the password generation process.
+3. Specify the desired password length by entering a number between 8 and 128.
+4. Confirm the character types you want to include in the password by clicking OK for lowercase, uppercase, numeric, and special characters.
+5. Once you've made your selections, the generated password will be displayed in the designated area.
