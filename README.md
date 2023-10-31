@@ -32,7 +32,7 @@ To get started with the Password Generator, simply clone the repository to your 
 ```bash
 git clone <https://github.com/KiranPandranki17/Password-generator-bootcamp.git)https://github.com/KiranPandranki17/Password-generator-bootcamp.git>
 cd Password-generator-bootcamp
-
+```
 ## How to Use
 
 1. Open the web application in your browser.
