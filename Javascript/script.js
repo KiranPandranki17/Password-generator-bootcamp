@@ -122,9 +122,9 @@ function getPasswordOptions() {
   }
 
   // Concatenate selected character types based on user input
-  // Initialize an empty array to store concatenated character sets based on user preferences
+  // Initialize an empty string to store concatenated character sets based on user preferences
 
-  var concat_character = [];
+  var concat_character = "";
 
   // Check if the user wants to include lowercase characters
   if (Lower) {
@@ -149,7 +149,23 @@ function getPasswordOptions() {
 function getRandom(arr) {}
 
 // Function to generate password with user input
-function generatePassword() {}
+function generatePassword() {
+
+  var getPasswordOption = getPasswordOptions();
+  var length = getPasswordOption[1];
+  var characters = getPasswordOption[0];
+  console.log(characters);
+  var Password_characters = "";
+
+  for (var i = 0; i < length; i++) {
+    var random_character = getRandom(characters);
+     Password_characters += random_character;
+  }
+
+  return Password_characters;
+}
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
