@@ -9,6 +9,7 @@ A simple web application that generates secure passwords based on user preferenc
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
+- [A sample video](#A sample video)
 - [License](#license)
 
 ## Introduction
