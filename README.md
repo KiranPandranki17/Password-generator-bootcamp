@@ -41,6 +41,10 @@ cd Password-generator-bootcamp
 4. Confirm the character types you want to include in the password by clicking OK for lowercase, uppercase, numeric, and special characters.
 5. Once you've made your selections, the generated password will be displayed in the designated area.
 
+## A sample video
+
+https://github.com/KiranPandranki17/Password-generator-bootcamp/assets/140180379/d28e190a-860b-4bd1-b893-b02c5cabdbfa
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code for personal or commercial use.
