@@ -30,5 +30,5 @@ This Password Generator web application allows users to create strong and secure
 To get started with the Password Generator, simply clone the repository to your local machine and open the `index.html` file in your web browser.
 
 ```bash
-git clone <repository-url>
-cd password-generator
+git clone <https://github.com/KiranPandranki17/Password-generator-bootcamp.git)https://github.com/KiranPandranki17/Password-generator-bootcamp.git>
+cd Password-generator-bootcamp
