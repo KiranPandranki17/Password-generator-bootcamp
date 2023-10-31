@@ -40,3 +40,7 @@ cd Password-generator-bootcamp
 3. Specify the desired password length by entering a number between 8 and 128.
 4. Confirm the character types you want to include in the password by clicking OK for lowercase, uppercase, numeric, and special characters.
 5. Once you've made your selections, the generated password will be displayed in the designated area.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code for personal or commercial use.
