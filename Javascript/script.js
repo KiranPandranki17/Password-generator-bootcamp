@@ -88,8 +88,29 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-// Function to prompt user for password options
+// Function to get user input for password options
 function getPasswordOptions() {
+
+  // Prompt the user to enter the length of the password
+  var passwordLength = parseInt(prompt("Enter the length of the password that you want to create (Must be a number between 8 and 128 characters):",));
+
+  // Validate the user input for password length
+  if (!(typeof passwordLength ==="number" && passwordLength >= 8 && passwordLength <= 128)) {
+    alert("Password length must be a number between 8 and 128.");
+    return;
+  }
+
+  // Confirm if the user wants to include different types of characters in the password
+  var Lower = confirm("Do you want to include lowercase characters?");
+  var Upper = confirm("Do you want to include uppercase characters?");
+  var Numeric = confirm("Do you want to include numeric characters?");
+  var Special = confirm("Do you want to include special characters?");
+
+  // Validate if the user has selected at least one character type
+  if (!Lower && !Upper && !Numeric && !Special) {
+    alert("Atleast select one character type to generate password.");
+    return;
+  }
 
 }
 
