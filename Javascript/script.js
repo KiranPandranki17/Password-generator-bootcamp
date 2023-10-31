@@ -116,7 +116,7 @@ function getPasswordOptions() {
   var Special = confirm("Do you want to include special characters?");
 
   // Validate if the user has selected at least one character type
-  if (Lower || Upper || Numeric || Special) {
+  if (!(Lower || Upper || Numeric || Special)) {
     alert("Atleast select one character type to generate password.");
     return;
   }
